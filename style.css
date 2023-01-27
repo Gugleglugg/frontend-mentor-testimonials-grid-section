@@ -112,7 +112,7 @@ body {
 
 .big-font {
     font-size: large;
-    margin: 0.5em;
+    margin: 0.5em 0;
 }
 
 .quotation {
@@ -142,6 +142,9 @@ styling the card itself and the different color variants
 .avatar {
     border-radius: 50%;
     border: 2px solid hsla(0, 0%, 100%, 0.5);
+    width: 4em;
+    height: 4em;
+
 }
 
 .bg-quote {
