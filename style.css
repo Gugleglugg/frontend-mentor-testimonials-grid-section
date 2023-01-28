@@ -93,11 +93,14 @@ body {
     display: grid;
     gap: 2em;
     align-items: center;
+    margin: 3em 0;
 }
 
 .position-rel {
     position: relative;
 }
+
+
 
 /* typography */
 
@@ -113,6 +116,7 @@ body {
 .big-font {
     font-size: large;
     margin: 0.5em 0;
+    z-index: 10;
 }
 
 .quotation {
@@ -129,14 +133,12 @@ styling the card itself and the different color variants
     padding: 2em;
     margin: 0 3em;
     height: 100%;
+    position: relative;
 }
 
-.testimonial:first-of-type {
-    margin-top: 3em;
-}
-
-.testimonial:last-of-type {
-    margin-bottom: 3em;
+.card-text {
+  position: relative;
+  z-index: 10;
 }
 
 .avatar {
@@ -152,7 +154,7 @@ styling the card itself and the different color variants
     right: 2em;
     top: 0em;
     opacity: 70%;
-    z-index: 1;
+    z-index: 0.5;
 }
 
 .accent-color-bg {
